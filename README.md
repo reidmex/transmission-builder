@@ -17,6 +17,11 @@ As the build process is based on Buildah, you will only need to have Buildah, Gi
 git clone https://github.com/deamen/transmission-builder.git
 ```
 
+**Install Requirements**  
+```
+apt install buildah -y
+```
+
 **Build the transmission-daemon Binary for ARM64**  
 ```
 cd transmission-builder/transmission-daemon
