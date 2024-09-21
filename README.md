@@ -4,7 +4,7 @@ Build statically linked transmission binaries
 How to [build](https://blog.yobibyte.com.au/posts/build-statically-linked-transmission-daemon-for-arm64/)
 
 -------------------------------------------------------------
-# Build Statically Linked transmission-daemon  
+### Build Statically Linked transmission-daemon  
 
 May 28, 2024  
 In my previous posts, I demonstrated how to build a statically linked transmission-daemon with Buildah. People are asking how to build it for ARM, and I realized they don’t know that with Buildah and qemu-user-static, you can build for almost any architecture on x86_64.   In this post, I will demonstrate how to build for ARM64 and make your own custom build with the scripts in my repository.  
