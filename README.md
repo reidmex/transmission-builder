@@ -4,14 +4,14 @@ Build statically linked transmission binaries
 How to [build](https://blog.yobibyte.com.au/posts/build-statically-linked-transmission-daemon-for-arm64/)
 
 -------------------------------------------------------------
-**Build Statically Linked transmission-daemon  **
+**Build Statically Linked transmission-daemon**
 May 28, 2024  
 In my previous posts, I demonstrated how to build a statically linked transmission-daemon with Buildah. People are asking how to build it for ARM, and I realized they don’t know that with Buildah and qemu-user-static, you can build for almost any architecture on x86_64.   In this post, I will demonstrate how to build for ARM64 and make your own custom build with the scripts in my repository.  
 
 **Prerequisites ** 
 As the build process is based on Buildah, you will only need to have Buildah, Git, and qemu-user-static installed on your system. Since they are readily available in most Linux distributions, I am not going to cover how to install them on your choice of Linux distribution. The qemu-user-static is required to build ARM64 binaries on an x86_64 system.  
 
-**Clone the Repository **  
+**Clone the Repository**  
 ```
 git clone https://github.com/deamen/transmission-builder.git
 ```
